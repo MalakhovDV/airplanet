@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body,html{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.container{
+    width: 1060px;
+    margin: 0 auto;
+    position: relative;
+}
+.button{
+    box-shadow: none;
+    border: none;
+    outline: none;
+}

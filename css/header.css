@@ -1,0 +1,28 @@
+header{
+    min-height: 77px;
+    background-color: #5973b1;
+    display: flex;
+    align-items: center;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts__tel{
+    display: block;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 700;
+}
+.contacts__graph{
+    display: block;
+    opacity: 0.7;
+    color: #ffffff;
+    text-decoration: underline;
+    margin-left: 71px;
+}
+.contacts__graph:hover{
+    text-decoration: none;
+}

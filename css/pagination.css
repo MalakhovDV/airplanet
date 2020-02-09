@@ -1,0 +1,62 @@
+.pagination{
+    margin-left:-20px;
+    margin-bottom: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination__block{
+    display: flex;
+    align-items: center;
+}
+.pagination__list{
+    display: flex;
+    align-items: center;
+}
+
+.pagination__item--active .pagination__link{
+    background-color: #5972b1;
+    color: #fff;
+}
+.pagination__link:hover{
+    background-color: #5972b1;
+    color: #fff;
+}
+.pagination__link{
+    color: #262424;
+    font-weight: 700;
+    display: block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    background-color: transparent;
+}
+.pagination__display{
+    color: #656464;
+    margin-right: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+.pagination__display-item{
+    margin-left: 4px;
+}
+.pagination__display-item:first-child{
+    margin-left: 10px;
+}
+.pagination__item:last-child{
+    margin-right: 8px;
+}
+.pagination__item{
+    align-items: center;
+    margin-left: 1px;
+}
+.pagination__item:first-child{
+    margin-left: 10px;
+}
+.pagination__arrow{
+    color: #000;
+}
+.pagination-reviews{
+    margin-left: -121px;
+    margin-bottom: 65px;
+}

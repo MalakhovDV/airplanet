@@ -13,7 +13,7 @@
         <header class="header">
             <div class="container">
                 <div class="logo">
-                    <a href="https://malakhovdv.github.io/airplanet/index.html" class="logo__link">
+                    <a href="https://malakhovdv.github.io/airplanet/main.html" class="logo__link">
                         <img src="./img/header/logo_header.png" alt="logo" class="logo__img">
                     </a>
                 </div>
@@ -25,33 +25,53 @@
         </header>
         <main class="main">
             <div class="container">
-                <aside class="main__menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="https://malakhovdv.github.io/airplanet/index.html" class="menu__link menu__link--main">
-                                Главная
-                            </a>
-                        </li>
-                        <li class="menu__item menu__item--active">
-                            <a href="" class="menu__link menu__link--feed">
-                                Отзывы
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="https://malakhovdv.github.io/airplanet/team.html" class="menu__link menu__link--team">
-                                Экипаж
-                            </a>
-                        </li>
-                    </ul>
+                <aside class="sidebar">
+                    <div class="cta">
+                        <div class="cta__text">Вопросы по бронированию билетов в нашей авиакомпании принимаются. Для этого можно оставить <a href="#" class="cta__cite">заявку на сайте</a> или же позвонить по номеру круглосуточной поддержки <a href="#" class="cta__tel">8 (800) 00-392-10</a> .</div>
+                    </div>
+                    <div class="socials">
+                        <div class="socials__title">Наши социальные сети</div>
+                        <ul class="socials__list">
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <img src="./img/footer/vk.png" alt="socials icon" class="socials__icon">
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <img src="./img/footer/fb.png" alt="socials icon" class="socials__icon">
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <img src="./img/footer/twitter.png" alt="socials icon" class="socials__icon">
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <img src="./img/footer/mail.png" alt="socials icon" class="socials__icon">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </aside>
                 <div class="main__content">
-                    <div class="breadcrumbs">
-                        <ul class="breadcrumbs__list">
-                            <li class="breadcrumbs__item">
-                                <a href="" class="breadcrumbs__link">Главная</a>
+                    <div class="main__menu">
+                        <ul class="menu__list">
+                            <li class="menu__item menu__item--active">
+                                <a href="https://malakhovdv.github.io/airplanet/main.html" class="menu__link menu__link--main">
+                                    Главная
+                                </a>
                             </li>
-                            <li class="breadcrumbs__item">
-                                <a href="" class="breadcrumbs__link">Отзывы</a>
+                            <li class="menu__item">
+                                <a href="" class="menu__link menu__link--feed">
+                                    Отзывы
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="https://malakhovdv.github.io/airplanet/team.html" class="menu__link menu__link--team">
+                                    Экипаж
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -139,9 +159,7 @@
                     </div>
                 </div>
             </div>
-            <div class="cta">
-                <div class="cta__text">Вопросы по бронированию билетов в нашей авиакомпании принимаются. Для этого можно оставить <b> <u>заявку на сайте</u> </b> или же позвонить по номеру круглосуточной поддержки <b>8 (800) 00-392-10</b>.</div>
-            </div>
+            
             <div class="container">
                 <form class="form">
                     <div class="form__wrapper">
@@ -160,7 +178,7 @@
                             <div class="form__row">
                                 <label class="form__label">
                                     <span class="form__subtitle">Текст отзыва</span>
-                                    <textarea type="text" class="form__textarea form__input" >Мне понравилось</textarea>
+                                    <textarea type="text" class="form__textarea form__input " placeholder="Мне понравилось" ></textarea>
                                 </label>
                             </div>
                             <div class="form__row">
@@ -182,7 +200,7 @@
                                 <div class="form__col">
                                     <button class="button">
                                         <span class="button__text">Отправить</span>
-                                        <img src="./img/main/button/button_icon.png" alt="" class="button__img">
+                                        <div class="button__img"></div>
                                     </button>
                                 </div>
                             </div>
@@ -193,7 +211,7 @@
         </main>
         <footer class="footer">
             <div class="container">
-                <div class="footer__text">
+                <div class="footer__text footer__text-reviews">
                     Сделано с любовью и старанием на курсе «HTML + CSS» в 
                     <a href="#" class="footer__text-link">LoftSchool</a>. 
                     Автор работы: 
@@ -201,36 +219,9 @@
                 </div>
                 <div class="footer__logo">
                     <div class="logo">
-                        <a href="https://malakhovdv.github.io/airplanet/index.html" class="logo__link">
+                        <a href="https://malakhovdv.github.io/airplanet/main.html" class="logo__link">
                             <img src="./img/footer/logo_footer.png" alt="logo" class="logo__img">
                         </a>
-                    </div>
-                </div>
-                <div class="footer__socials">
-                    <div class="socials">
-                        <div class="socials__title">Наши социальные сети</div>
-                        <ul class="socials__list">
-                            <li class="socials__item">
-                                <a href="#" class="socials__link">
-                                    <img src="./img/footer/vk.png" alt="socials icon" class="socials__icon">
-                                </a>
-                            </li>
-                            <li class="socials__item">
-                                <a href="#" class="socials__link">
-                                    <img src="./img/footer/fb.png" alt="socials icon" class="socials__icon">
-                                </a>
-                            </li>
-                            <li class="socials__item">
-                                <a href="#" class="socials__link">
-                                    <img src="./img/footer/twitter.png" alt="socials icon" class="socials__icon">
-                                </a>
-                            </li>
-                            <li class="socials__item">
-                                <a href="#" class="socials__link">
-                                    <img src="./img/footer/mail.png" alt="socials icon" class="socials__icon">
-                                </a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>

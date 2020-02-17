@@ -12,7 +12,7 @@
     line-height: 18px;
     color: #fff;
     font-weight: 300;
-    padding-top: 14px;
+    padding-top: 11px;
     padding-bottom: 10px;
     box-sizing: border-box;
     padding-right: 110px;
@@ -28,10 +28,10 @@
 }
 .footer__logo{
     text-align: center;
-    padding-right: 6px;
+
 }
 .socials__item{
-    margin-right: 10px;
+    margin-right: 9px;
 }
 .socials__item:last-child{
     margin-right: 0px;
@@ -48,11 +48,14 @@
     background-color: #fff;
 }
 .socials{
-    padding-left: 191px;
+    margin-top: 27px;
+    padding-left: 5px;
+    text-align: center;
 }
 .socials__title{
     font-weight: 700;
-    color: #fff;
+    color: #2d2222;
+
     margin-bottom: 8px;
 }
 .socials__icon{
@@ -64,5 +67,11 @@
 .socials__list{
     display: flex;
     align-items: center;
-
+    margin-left: 77px; 
+}
+.socials-team{
+    margin-left: 9px;
+}
+.footer__text-reviews{
+    margin-left: 18px;
 }

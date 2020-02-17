@@ -1,0 +1,70 @@
+.animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../img/intro/background.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.visual__logo{
+    margin-bottom: 34px;
+}
+.visual__button .button{
+    background: transparent;
+    border: 1px solid #1c5bc3;
+
+}
+.visual__button .button__img{
+    background-image: url("../img/intro/main_icon.png");
+}
+.visual__button .button__text{
+    color: #3a5bbf;
+}
+.visual__button .button:hover{
+    background-color: #3a5bbf;
+}
+.visual__button .button:hover .button__text{
+    color: #FFF;
+}
+.visual__button .button:hover .button__img{
+    background-image: url("../img/intro/main_icon_white.png");
+}
+
+.visual{
+    text-align: center;
+    animation: anim 1.3s 1s linear 1;
+    opacity: 0;
+    animation-fill-mode: both;
+}
+@keyframes anim{
+    0%{
+        opacity: 0;
+    }
+    40%{
+        transform: translateY(0%);
+    }
+    50%{
+        opacity: 1;
+        transform: translateY(-15%);
+    }
+    60%{
+        transform: translateY(0%);
+    }
+    70%{
+        transform: translateY(-10%);
+    }
+    80%{
+        transform: translateY(0%);
+    }
+    90%{
+        transform: translateY(-5%);
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+
+}

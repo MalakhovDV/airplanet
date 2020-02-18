@@ -1,4 +1,6 @@
-.main{
+.partners__item:last-child{
+    margin-bottom: 0px;
+}.main{
 
     margin: 0 auto;
     position: relative;
@@ -350,6 +352,9 @@
 
 .partners__item{
     margin-bottom: 7px;
+}
+.partners__item:last-child{
+    margin-bottom: 0px;
 }
 
 .partners__link{

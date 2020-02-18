@@ -67,7 +67,7 @@
 .socials__list{
     display: flex;
     align-items: center;
-    margin-left: 77px; 
+    justify-content: center; 
 }
 .socials-team{
     margin-left: 9px;
